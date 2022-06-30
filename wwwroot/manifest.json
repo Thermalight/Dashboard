@@ -1,0 +1,8 @@
+{
+    "name": "Dashboard",
+    "start_url": "/?source=pwa",
+    "background_color": "#e7334c",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#e7334c"
+}

@@ -4,7 +4,7 @@
     console.log("Page: " + $currentPage)
 </script>
 
-<p>Welcome {user}</p>
+<p>Welcome user</p>
 
 <style>
     p {

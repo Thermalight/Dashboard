@@ -24,13 +24,11 @@
 
 <style>
     nav {
-        position: fixed;
+        width: 160px;
+        height: 100%;
         background-color: #e7c064;
-        box-sizing: border-box;
         z-index: 999;
         border-radius: 1em;
-        bottom: 32px;
-        top: 32px;
     }
 
     .logo {
@@ -45,10 +43,10 @@
         gap: 8px;
         text-decoration: none;
         font-size: 1em;
-        padding: 16px;
+        padding: 16px 10% 16px 10%;
         color: #222;
         transition: 0.1s;
-        width: 100%;
+        width: 80%;
     }
 
     .links :global(a):hover, :global(button):hover {
@@ -57,9 +55,8 @@
 
     .links button {
         background: none;
-        border: none; 
-        position: absolute;
-        bottom: 20px;
+        border: none;
+        width: 100%;
     }
 
     .links button:hover {

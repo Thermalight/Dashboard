@@ -33,12 +33,18 @@
     }
 </script>
 
-<Navbar />
+<div class="content">
+    <Navbar />
+    <svelte:component this={routing[$currentPage] ?? NotFound} />
+</div>
 
-<svelte:component this={routing[$currentPage] ?? NotFound} class="content"/>
 
 <style>
-    p {
-        margin-left: 500px;
+    .content {
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        overflow: hidden;
     }
 </style>
